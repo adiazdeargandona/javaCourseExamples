@@ -1,5 +1,5 @@
-/* Este código no ejecuta 
-PseudoCódigo clase POO */
+﻿/* Este código no ejecuta 
+PseudoCódigo de la clase básica de POO */
 
 //mensaje: objeto.metodo();
 String nombre1 = p1.getNombre();

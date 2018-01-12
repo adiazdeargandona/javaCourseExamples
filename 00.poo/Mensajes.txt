@@ -1,0 +1,13 @@
+/* Este código no ejecuta 
+PseudoCódigo clase POO */
+
+//mensaje: objeto.metodo();
+String nombre1 = p1.getNombre();
+int edad2 = p2.getEdad();
+int edad1 = p1.getEdad();
+double media = (edad2 + edad1) / 2;
+
+
+double media = (p2.getEdad() + p1.getEdad()) / 2;
+
+

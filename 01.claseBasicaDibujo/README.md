@@ -6,7 +6,7 @@ El cuadrado deberá posicionarse en un punto dado del dibujo (coordenadas x e y)
 Para pintar el cuadrado en un entorno gráfico (Dibujo) se utilizarán las clases suministradas por el profesor. Se podrá analizar el código (¿Cómo lo hace?) o la documentación facilitada (¿Qué hace?). ¿Qué os resulta más sencillo?
 
 ##### Salida del programa
-* Crear un cuadrado, pintarlo y esperar un segundo. Repetir la acción hasta pintar 3 cuadrados diferentes. Nótese que el programa sólo es capaz de pintar un cuadrado de forma simultánea.
+* Crear un cuadrado, pintarlo y esperar un segundo. Repetir la acción hasta pintar tres cuadrados diferentes. Nótese que el programa sólo es capaz de pintar un cuadrado de forma simultánea.
 * Crear un cuadrado y pintarlo. Esperar un segundo y moverlo de lugar. Esperar otro segundo y volver a moverlo. Por último, cambiar su tamaño después de esperar un segundo.
 
 

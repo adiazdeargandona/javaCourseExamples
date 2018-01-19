@@ -1,1 +1,0 @@
-typeSearchIndex = [{"p":"<Unnamed>","l":"App"},{"p":"<Unnamed>","l":"Cuadrado"},{"p":"<Unnamed>","l":"Dibujo"},{"p":"<Unnamed>","l":"Lienzo"},{"p":"<Unnamed>","l":"Util"}]

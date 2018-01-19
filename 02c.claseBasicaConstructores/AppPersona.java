@@ -2,31 +2,14 @@ public class AppPersona
 {
 	public static void main(String args[]) 
 	{
-		int i = 8;
-		String s = "hola";
+		//Persona p0 = new Persona(); //ERROR
 
-		int j;
-		j = 7;
-
-		Persona p = new Persona(); //Llamada al constructor por defecto
-
-//		String nombre = p.getNombre();
-//		System.out.println(nombre.toUpperCase());
-
-/*
-		C:\Users\david\Documents\sources\javaCourseExamples\02c.claseBasica>java AppPersona
-		Exception in thread "main" java.lang.NullPointerException
-        at AppPersona.main(AppPersona.java:14)
-        */
-		//System.out.println(p.getNombre().toUpperCase());
-
-		p.setNombre("Luis");
-		p.setEdad(22);
+		Persona p = new Persona("Luis", 21); //Llamada al constructor por defecto
 
 		Persona p2;
-		p2 = new Persona();
+		p2 = new Persona("Lola", 22);
 		p2.setNombre("Manuel");
-		p2.setEdad(21);
+		p2.setEdad(-21);
 
 
 		int edadP = p.getEdad();

@@ -3,7 +3,9 @@
 Realizar con una clase que defina el comportamiento de un cuadrado para ser pintado en un dibujo.
 El cuadrado deberá posicionarse en un punto dado del dibujo (coordenadas x e y) y tendrá un tamaño determinado (lado).
 
-Para pintar el cuadrado en un entorno gráfico (Dibujo) se utilizarán las clases suministradas por el profesor. Se podrá analizar el código (¿Cómo lo hace?) o la documentación facilitada (¿Qué hace?). ¿Qué os resulta más sencillo?
+Decidir el mejor constructor para este objeto.
+
+Para pintar el cuadrado en un entorno gráfico (Dibujo) se utilizarán las clases suministradas por el profesor. Se podrá analizar el código (¿Cómo lo hace?) o la documentación facilitada de la carpeta docs (¿Qué hace?). ¿Qué os resulta más sencillo?
 
 ##### Salida del programa
 * Crear un cuadrado, pintarlo y esperar un segundo. Repetir la acción hasta pintar tres cuadrados diferentes. Nótese que el programa sólo es capaz de pintar un cuadrado de forma simultánea.

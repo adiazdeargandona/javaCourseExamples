@@ -1,5 +1,5 @@
 /* Se recomienda que el nombre de la 
-clase identifique el tipo objeto */
+clase identifique el tipo objeto .....*/
 public class Persona
 {
 	//Atributos

@@ -12,12 +12,11 @@ public class AppPersona
 
 //		String nombre = p.getNombre();
 //		System.out.println(nombre.toUpperCase());
-
-/*
+	/*
 		C:\Users\david\Documents\sources\javaCourseExamples\02c.claseBasica>java AppPersona
 		Exception in thread "main" java.lang.NullPointerException
         at AppPersona.main(AppPersona.java:14)
-        */
+    */
 		//System.out.println(p.getNombre().toUpperCase());
 
 		p.setNombre("Luis");

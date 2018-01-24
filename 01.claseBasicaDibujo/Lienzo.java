@@ -14,7 +14,7 @@ public class Lienzo extends Canvas
 	{
 		if(cuadrado!=null)
 		{
-			g.setColor(Color.red);
+			g.setColor(Color.RED);
 			g.drawRect(cuadrado.getX(), cuadrado.getY(), cuadrado.getLado(), cuadrado.getLado()); 
 		}
 	}

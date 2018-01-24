@@ -14,8 +14,8 @@ Para pintar el cuadrado en un entorno gráfico (Dibujo) se utilizarán las clase
 4. Interactuar con este objeto creado para pintar el cuadrado/s solicitados.
 
 ##### Salida del programa
-* Crear un cuadrado, pintarlo y esperar un segundo. Repetir la acción hasta pintar tres cuadrados diferentes. Nótese que el programa sólo es capaz de pintar un cuadrado de forma simultánea.
-* Crear un cuadrado y pintarlo. Esperar un segundo y moverlo de lugar. Esperar otro segundo y volver a moverlo. Por último, cambiar su tamaño después de esperar un segundo.
+* AppDibujo01: Crear un cuadrado, pintarlo y esperar un segundo. Repetir la acción hasta pintar tres cuadrados diferentes. Nótese que el programa sólo es capaz de pintar un cuadrado de forma simultánea.
+* AppDibujo02: Crear un cuadrado y pintarlo. Esperar un segundo y moverlo de lugar. Esperar otro segundo y volver a moverlo. Por último, cambiar su tamaño después de esperar un segundo.
 
 
 

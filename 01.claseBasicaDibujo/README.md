@@ -1,6 +1,12 @@
 ## Práctica 01. POO básico. Dibujo de un cuadrado. 
 ### Desarrollo de una clase básica en un entorno gráfico.
-Realizar con una clase que defina el comportamiento de un cuadrado para ser pintado en un dibujo.
+
+Ésta es la primera práctica de un conjunto de ellas en las cuales trabajaremos en un proyecto de realización de una aplicación tipo Paint. Empezaremos por lo básico e intentaremos plasmar todos los nuevos conceptos adquiridos hasta conseguir una aplicación funcional de representación gráfica.
+
+Pr lo tanto, se pide realizar con una clase que defina el comportamiento de un objeto Cuadrado para ser pintado en un dibujo, para ello os debéis apoyar en las clases que os suministro (Dibujo, Lienzo y Util) para poder realizar el programa. 
+
+Con las clases Dibujo y Util no tenéis que hacer nada más que lanzar los mensajes necesarios sobre su interfaz para encontrar la funcionalidad que se pide. La clase Lienzo sólo está de apoyo de Dibujo, no debéis utilizarla.
+
 El cuadrado deberá posicionarse en un punto dado del dibujo (coordenadas x e y) y tendrá un tamaño determinado (lado).
 
 Decidir el mejor constructor para este objeto.

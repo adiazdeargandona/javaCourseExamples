@@ -19,7 +19,7 @@ public class AppPersona
 
 	static void mostrarPersonas()
 	{
-		for(int i=0; i<10; i++)
+		for(int i=0; i<personas.length; i++)
 		{
 			if(personas[i]!=null)
 			{

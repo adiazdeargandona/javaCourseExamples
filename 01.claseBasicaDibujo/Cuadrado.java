@@ -1,8 +1,8 @@
 public class Cuadrado
 {
-	private int x;
-	private int y;
-	private int lado;
+	int x;
+	int y;
+	int lado;
 
 	/** 
 		Inicializa todos los atributos del objeto 
@@ -10,41 +10,43 @@ public class Cuadrado
 		@param y Posición x de la ventana en pixels
 		@param lado Tamaño del cuadrado en pixels
 	*/
-	public Cuadrado(int x, int y, int lado)
+	Cuadrado(int x, int y, int lado)
 	{
-		this.x = x;
-		this.y = y;
-		this.lado = lado;
+		this.setX(x);
+		this.setY(y);
+		this.setLado(lado);
 	}
 
-	public int getX()
+	int getX()
 	{
 		return x;
 	}
 
-	public int getY()
+	int getY()
 	{
 		return y;
 	}
 
-	public int getLado()
+	int getLado()
 	{
 		return lado;
 	}
 
-	public void setX(int x)
+	void setX(int x)
 	{
-		this.x=x;
+		if(x>0 && x<800)
+			this.x=x;
 	}
 
-	public void setY(int y)
+	void setY(int y)
 	{
-		this.y=y;
+		if(y>0 && y<600)
+			this.y=y;
 	}
 
-	public void setLado(int lado)
+	void setLado(int lado)
 	{
-		this.lado=lado;
+		if(x>1 && x<600)
+			this.lado=lado;
 	}
-
 }

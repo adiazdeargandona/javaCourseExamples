@@ -14,9 +14,9 @@ public class Cuadrado
 	*/
 	Cuadrado(int x, int y, int lado)
 	{
-		this.x = x;
-		this.y = y;
-		this.lado = lado;
+		this.setX(x);
+		this.setY(y);
+		this.setLado(lado);
 	}
 
 	int getX()
@@ -36,17 +36,20 @@ public class Cuadrado
 
 	void setX(int x)
 	{
-		this.x=x;
+		if(x>0 && x<800)
+			this.x=x;
 	}
 
 	void setY(int y)
 	{
-		this.y=y;
+		if(y>0 && y<600)
+			this.y=y;
 	}
 
 	void setLado(int lado)
 	{
-		this.lado=lado;
+		if(x>1 && x<600)
+			this.lado=lado;
 	}
 
 	static void setRELLENO(boolean relleno)

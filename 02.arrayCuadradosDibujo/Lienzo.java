@@ -5,7 +5,7 @@ public class Lienzo extends Canvas
 {
 	Cuadrado cuadrados[]=new Cuadrado[10];
 
-	public void pintar(Cuadrado c)
+	void pintar(Cuadrado c)
 	{
 		for(int i=0;i<cuadrados.length;i++)
 			if(cuadrados[i]==null)

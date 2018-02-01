@@ -3,7 +3,8 @@
 class Main {
   static int k = 3;
   
-  public static void main(String[] args) {
+  public static void main(String[] args) 
+  {
     int i = 1;
     if(i==1)
         for(int j=2;j<5;j++)

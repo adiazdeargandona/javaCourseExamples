@@ -6,12 +6,8 @@ class Main {
   public static void main(String[] args) {
     int i = 1;
     if(i==1)
-    {
         for(int j=2;j<5;j++)
-        {
             System.out.println(Main.exec(j));
-        }
-    }
   }
   
   static String exec(int j)

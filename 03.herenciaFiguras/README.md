@@ -9,7 +9,7 @@ Esta práctica no tendrá interfaz gráfico de usuario (GUI), simplemente se deb
 
 Se investigará en la API del JDK la forma de pintar un círculo (https://docs.oracle.com/javase/9/docs/api/java/awt/Graphics.html) y cómo trabajar con otros colores (https://docs.oracle.com/javase/9/docs/api/java/awt/Color.html).
 
-Para trabajar con la clase Color se deberá realizar un import:
+Para trabajar con la clase Color se deberá realizar un import en la primera línea de la clase:
 ```
 import java.awt.Color;
 ```

@@ -9,6 +9,11 @@ Esta práctica no tendrá interfaz gráfico de usuario (GUI), simplemente se deb
 
 Se investigará en la API del JDK la forma de pintar un círculo (https://docs.oracle.com/javase/9/docs/api/java/awt/Graphics.html) y cómo trabajar con otros colores (https://docs.oracle.com/javase/9/docs/api/java/awt/Color.html).
 
+Para trabajar con la clase Color se deberá realizar un import:
+```
+import java.awt.Color;
+```
+
 ##### Salida del programa
 * AppDibujo01: Crear un array que almacene objetos de tipo Cuadrado y Círculo, invocar un método que se llamado pintar() que devuelva la información de los objetos (cómo si se tratara del método getInfo()) y mostrar dicha información por consola.
 * AppDibujo02: Lo mismo, pero la información aparecerá en pantalla con intervalos de 1 segundo.

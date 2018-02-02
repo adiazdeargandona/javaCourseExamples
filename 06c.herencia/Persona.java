@@ -70,7 +70,7 @@ public class Persona //extends Object
 	String getInfoHTML()
 	{
 		return " <br />Nombre: " + this.formatear(nombre) + "<br />NIF: " +
-		 this.formatear(nif) + "<br />Edad: " + this.formatear(edad) + "";
+		 this.formatear(nif) + "<br />Edad: " + this.formatear(edad);
 	}
 
 	String getInfo()

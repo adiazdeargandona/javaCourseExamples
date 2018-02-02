@@ -20,6 +20,12 @@ public class Trabajador extends Persona
 	}
 
 	@Override
+	String getInfoHTML()
+	{
+		return super.getInfoHTML() + "<br />Profesión: " + this.formatear(profesion);
+	}
+
+	@Override
 	String getInfo()
 	{
 		return super.getInfo() + "\nProfesion : " + profesion;

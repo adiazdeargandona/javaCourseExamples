@@ -23,10 +23,11 @@ public class AppTrabajador
 
 		//personas[2].getProfesion()-->ERROR
 
-		System.out.println("============= Generalización de personas =============");
+		System.out.println("\n============= Generalización de personas =============");
 
 		for(int i=0;i<personas.length;i++)
-			System.out.println(personas[i].getInfo());
+			if(personas[i]!=null)
+				System.out.println(personas[i].getInfo());
 
 	}
 }

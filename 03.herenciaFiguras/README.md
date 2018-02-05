@@ -7,7 +7,7 @@ En esta práctica, cada objeto ya tendrá su propia información de color y rell
 
 Esta práctica no tendrá interfaz gráfico de usuario (GUI), simplemente se deberán programar las clases que definan la lógica de objetos y una App para mostrar por consola los atributos de los objetos creados.
 
-Se investigará en la API del JDK la forma de pintar un círculo (https://docs.oracle.com/javase/9/docs/api/java/awt/Graphics.html) y cómo trabajar con otros colores (https://docs.oracle.com/javase/9/docs/api/java/awt/Color.html).
+Se investigará en la API del JDK la forma de trabajar con otros colores (https://docs.oracle.com/javase/9/docs/api/java/awt/Color.html).
 
 Para trabajar con la clase Color se deberá realizar un import en la primera línea de la clase:
 ```

@@ -1,8 +1,6 @@
 ## Práctica 04d. POO intermedio. Herencia y clases abstractas. 
 ### Desarrollo de un programa que permita saber identificar e implementar clases abstractas e interfaces.
 
-Identificar en un enunciado clases y relacionarlas entre sí, a través de la herencia.
-
 Se pide desarrollar un programa JAVA que permita gestionar todos los parques nacionales que existen en Kenia. Cada parque posee una extensión (km cuadrados), un número de especies de animales y poseen un nombre. Todos ellos sólo pueden ser de dos tipos, las Reservas de Caza o Áreas Protegidas.
 
 Los primeros, tienen un coste de licencia y un sólo tipo de arma a utilizar en él, mientras que los segundos, poseen una subvención del gobierno (en Chelines) y colabora en ellos una ONG. Dentro de las Áreas Protegidas, se diferencian entre las acuáticas (número de lagos), las terrestres (tipo de terreno) y el resto, que no se clasifican bajo ningún tipo específico.

@@ -1,4 +1,4 @@
-## Práctica 04d. POO intermedio. Herencia y clases abstractas. 
+## Práctica 04p3. POO intermedio. Herencia y clases abstractas. 
 ### Desarrollo de un programa que permita saber identificar e implementar clases abstractas e interfaces.
 
 Se pide desarrollar un programa JAVA que permita gestionar todos los parques nacionales que existen en Kenia. Cada parque posee una extensión (km cuadrados), un número de especies de animales y poseen un nombre. Todos ellos sólo pueden ser de dos tipos, las Reservas de Caza o Áreas Protegidas.

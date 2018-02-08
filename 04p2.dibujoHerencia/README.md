@@ -1,4 +1,4 @@
-## Práctica 04. POO avanzado. Dibujo de diferentes tipos de figura. 
+## Práctica 04p2. POO avanzado. Dibujo de diferentes tipos de figura. 
 ### Desarrollo de una aplicación gráfica que dibuje varios tipos de figuras basándose en el concepto de herencia.
 
 Fusionar las prácticas 2 (pintar en un dibujo un cuadrado) y 3 (figuras en herencia) para que podamos representar cuadrados y circunferencias en un lienzo.

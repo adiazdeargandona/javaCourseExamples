@@ -1,7 +1,7 @@
-## Práctica 04c. POO intermedio. Herencia y clases abstractas. 
+## Práctica 04p1. POO intermedio. Herencia y clases abstractas. 
 ### Trabajar con clases abstractas.
 
-Mejorar la práctica anterior para que trabaje con clases abstractas, situación más acorde a la realidad.
+Mejorar la práctica 3 para que trabaje con clases abstractas (situación más acorde a la realidad). Por lo tanto, esta práctica no tendrá interfaz gráfico.
 
 ##### Salida del programa
 

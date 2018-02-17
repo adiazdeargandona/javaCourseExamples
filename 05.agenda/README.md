@@ -20,5 +20,4 @@ En la clase App, al haber un número importante de líneas de código, se modula
 
 La clase Agenda concentrará la lógica de propia de la agenda: insertar, buscar, listar. El App, será el cliente de Agenda, la cual trabajará en última instancia con Persona. 
 
-
-
+Crear la estructura de paquetes necesaria, aplicando los modificadores de acceso necesarios.

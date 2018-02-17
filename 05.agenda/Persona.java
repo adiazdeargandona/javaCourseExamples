@@ -7,10 +7,10 @@ public class Persona
     int edad;
     String nombre;
    
-    public Persona(String n, int e)
+    public Persona(String nombre, int edad)
     {
-        edad = e;
-        nombre = n;
+        this.nombre = nombre;
+        this.setEdad(edad);
     }
    
     int getEdad()
@@ -18,9 +18,10 @@ public class Persona
         return edad;
     }
    
-    void setEdad(int _edad)
+    void setEdad(int edad)
     {
-        edad = _edad;
+        if(edad > 0 && edad < 120)
+            this.edad = edad;
     }
    
     String getNombre()

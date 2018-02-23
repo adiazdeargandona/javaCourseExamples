@@ -2,6 +2,7 @@
 Arregla todo este desastre de herencia, por favor 
 */
 
+
 class Main 
 {
   public static void main(String[] args) 

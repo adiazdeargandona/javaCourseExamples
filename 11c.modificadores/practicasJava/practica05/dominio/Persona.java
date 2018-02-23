@@ -25,6 +25,13 @@ public class Persona //extends Object
 		this.nif = nif;
 	}
 
+	/* Contructor de búsqueda: equals */
+	public Persona(String nif)
+	{
+		this.nif = nif;
+	}
+
+
 	public static String getCIUDAD()
 	{
 		return CIUDAD;
@@ -107,4 +114,5 @@ public class Persona //extends Object
 			return false;
 	}
 }
+
 

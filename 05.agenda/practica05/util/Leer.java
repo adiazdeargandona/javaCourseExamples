@@ -1,6 +1,5 @@
-/**
-@author David Contreras
-*/
+/** @author David Contreras */
+package practica05.util;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

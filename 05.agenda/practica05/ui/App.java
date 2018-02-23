@@ -1,4 +1,9 @@
 /** @author David Contreras */
+package practica05.ui;
+
+import practica05.negocio.Agenda;
+import practica05.dominio.Persona;
+import practica05.util.Leer;
 
 public class App
 {

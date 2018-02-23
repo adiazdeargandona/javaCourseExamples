@@ -1,4 +1,7 @@
 /** @author David Contreras */
+package practica05.negocio;
+
+import practica05.dominio.Persona;
 
 public class Agenda
 {

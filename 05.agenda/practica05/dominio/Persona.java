@@ -1,4 +1,5 @@
 /** @author David Contreras */
+package practica05.dominio;
 
 public class Persona
 {

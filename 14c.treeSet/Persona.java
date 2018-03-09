@@ -79,14 +79,7 @@ public class Persona implements Comparable
 		if(o instanceof Persona)
 		{
 			Persona p = (Persona) o;
-			int comparacion = nombre.compareTo(p.getNombre());
-			if(comparacion==0)
-				if(this.equals(o))
-					return 0;
-				else
-					return +1; //Por ejemplo 
-			else
-				return comparacion;
+			return nombre.compareTo(p.getNombre());
 		}
 		else
 			return -1; //Por ejemplo		

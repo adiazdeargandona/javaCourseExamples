@@ -19,7 +19,7 @@ Es obligatorio emplear nuevos componentes gráficos (JTable, JComboBox, JTabbedP
 
 #### Descripción de la práctica B:
 
-Desarrollar una Power Point.
+Desarrollar un Power Point.
 
 #### Evaluación de la práctica: Todos los alumnos parten de un 9.0. Nota mínima: 0. Nota máxima: 10.5.
 

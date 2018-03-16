@@ -5,6 +5,7 @@ public class AppDibujo01
 	public static void main( String[] args )
 	{
 		Dibujo dibujo = new Dibujo();
+		Util.wait(0);
 
 		Cuadrado c1 = new Cuadrado(500, 50, true, Color.RED, 200);		
 		dibujo.pintar(c1);

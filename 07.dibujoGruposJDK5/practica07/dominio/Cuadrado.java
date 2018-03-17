@@ -1,4 +1,4 @@
-import java.awt.Color;
+package practica07.dominio;
 
 public class Cuadrado extends Figura
 { 
@@ -8,7 +8,7 @@ public class Cuadrado extends Figura
 		Inicializa todos los atributos del objeto 
 		@param lado Tamaño del cuadrado en pixels
 	*/
-	public Cuadrado(int x, int y, boolean relleno, Color color, int lado)
+	public Cuadrado(int x, int y, boolean relleno, java.awt.Color color, int lado)
 	{
 		super(x, y, relleno, color);
 		this.setLado(lado);

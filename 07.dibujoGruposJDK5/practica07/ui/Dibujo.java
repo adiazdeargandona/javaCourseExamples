@@ -1,3 +1,7 @@
+package practica07.ui;
+
+import practica07.dominio.Figura;
+
 import javax.swing.JFrame;
 
 /** 
@@ -20,12 +24,12 @@ public class Dibujo extends JFrame
 
 	/** 
 		Pinta el cuadrado recibido por el App y actualiza el lienzo (canvas) 
-		@param cuadrado cuadrado a pintar
+		@param cuadrado cuadrado a pxºintar
 	*/
 	public void pintar(String grupo, Figura figura)
 	{
 		lienzo.pintar(grupo, figura);
-		//lienzo.repaint();
+		lienzo.repaint();
 	}
 
 	public void ocultarGrupo(String grupo)

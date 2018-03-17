@@ -1,8 +1,16 @@
+package practica07.ui;
+
+import practica07.dominio.Circulo;
+import practica07.dominio.Cuadrado;
+
+import practica07.util.Util;
+
 import java.awt.Color;
 
 public class AppDibujoGrupo
 {
 	public static void main( String[] args )
+
 	{
 		Dibujo dibujo = new Dibujo();
 		Util.wait(0);

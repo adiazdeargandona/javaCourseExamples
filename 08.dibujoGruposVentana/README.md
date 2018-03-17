@@ -9,7 +9,7 @@ Como no se podrán representar todavía figuras a través de este interfaz, se t
 
 ![alt text](https://raw.githubusercontent.com/DavidContrerasICAI/javaCourseExamples/master/08.dibujoGruposVentana/_diagramaClases.jpg)
 
-La comunicación de los objetos variará en esta práctica. Observad la nueva comunicación de objetos que existirá mediante el diagrama de secuencia que se acompaña.
+La comunicación de los objetos variará en esta práctica. Observad la nueva comunicación  que existirá mediante el diagrama de secuencia que se acompaña y el papel que juega la nueva clase gestora de figuras, Dibujo.
 
 ![alt text](https://raw.githubusercontent.com/DavidContrerasICAI/javaCourseExamples/master/08.dibujoGruposVentana/_diagramaSecuencia.jpg)
 

@@ -1,4 +1,4 @@
-import java.awt.Color;
+package practica07.dominio;
 
 public class Circulo extends Figura
 {
@@ -10,7 +10,7 @@ public class Circulo extends Figura
 		@param y Posición x de la ventana en pixels
 		@param lado Tamaño del cuadrado en pixels
 	*/
-	public Circulo(int x, int y, boolean relleno, Color color, int radio)
+	public Circulo(int x, int y, boolean relleno, java.awt.Color color, int radio)
 	{
 		super(x, y, relleno, color);
 		this.setRadio(radio);

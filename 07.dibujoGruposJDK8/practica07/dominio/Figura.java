@@ -1,11 +1,11 @@
-import java.awt.Color;
+package practica07.dominio;
 
 public abstract class Figura
 {
 	protected int x;
 	protected int y;
 	protected boolean relleno;
-	private Color color;
+	private java.awt.Color color;
 
 	private boolean visible = true;
 
@@ -17,7 +17,7 @@ public abstract class Figura
 		@param color Color de la figura
 		
 	*/
-	public Figura(int x, int y, boolean relleno, Color color)
+	public Figura(int x, int y, boolean relleno, java.awt.Color color)
 	{
 		this.setX(x);
 		this.setY(y);
@@ -58,12 +58,12 @@ public abstract class Figura
 		return relleno;
 	}
 
-	public void setColor(Color color)
+	public void setColor(java.awt.Color color)
 	{
 		this.color = color;
 	}
 
-	public Color getColor()
+	public java.awt.Color getColor()
 	{
 		return color;
 	}	

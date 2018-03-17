@@ -1,3 +1,7 @@
+package practica07.ui;
+
+import practica07.dominio.Figura;
+
 import java.awt.Canvas;
 import java.awt.Graphics;
 

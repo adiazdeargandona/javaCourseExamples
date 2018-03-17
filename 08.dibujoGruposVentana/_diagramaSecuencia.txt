@@ -1,0 +1,18 @@
+title Pintar una Figura cualquiera
+
+
+
+JVentanaDibujo->Figura: new
+Figura->JVentanaDibujo: f
+
+JVentanaDibujo->Dibujo: pintar("Grupo Rojo", f)
+JVentanaDibujo->Lienzo: repaint()
+Lienzo->Lienzo: paint(Graphics g)
+
+Lienzo->JVentanaDibujo: getDibujo()
+JVentanaDibujo->Lienzo: dibujo
+Lienzo->Dibujo: getFiguras()
+Dibujo->Lienzo: figuras
+loop figuras.size()
+    Lienzo->Figura: pintar(Graphics g)
+end

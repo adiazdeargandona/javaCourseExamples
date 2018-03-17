@@ -1,6 +1,8 @@
 ## Práctica 08. Java avanzado. JPaint 2018: Aplicación gráfica de dibujo.
 ### Desarrollo de una aplicación gráfica que posea un interfaz preparado para dibujar futuros objetos tipo figura.
 
+![alt text](https://raw.githubusercontent.com/DavidContrerasICAI/javaCourseExamples/master/08.dibujoGruposVentana/_diagramaCasosUso.jpg)
+
 Modificar la práctica de Dibujo anterior para crear una aplicación gráfica que contenga los elementos que se muestran en el pantallazo que se adjunta.
 
 [IMG]

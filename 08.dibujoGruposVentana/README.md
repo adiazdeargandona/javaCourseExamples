@@ -11,7 +11,7 @@ Como no se podrán representar todavía figuras a través de este interfaz, se t
 
 La comunicación de los objetos variará en esta práctica. Observad la nueva comunicación  que existirá mediante el diagrama de secuencia que se acompaña y el papel que juega la nueva clase gestora de figuras, Dibujo.
 
-![alt text](https://raw.githubusercontent.com/DavidContrerasICAI/javaCourseExamples/master/08.dibujoGruposVentana/_diagramaSecuencia.jpg)
+![alt text](https://raw.githubusercontent.com/DavidContrerasICAI/javaCourseExamples/master/08.dibujoGruposVentana/_diagramaSecuencia01.jpg)
 
 ##### Salida del programa
 * AppDibujoGrupoVentana: La aplicación tendrá la apariencia que se muestra:

@@ -1,6 +1,6 @@
 ## Práctica Final. Programación Orientada a Objetos. 
 ### Desarrollo de un software pseudo-comercial con interfaz gráfica 
-Aplicación desarrollada en Swing que gestione un tipo cualquiera de objeto (a elegir por el alumno) con persitencia en disco. 
+El alumno podrá elegir entre desarrollar una aplicación Swing que gestione un tipo cualquiera de objeto (A) o desarrollar un JPaint. Ambas aplicaciones tendrán persitencia en disco. 
 
 #### Fecha de entrega:
 
@@ -19,7 +19,9 @@ Es obligatorio emplear nuevos componentes gráficos (JTable, JComboBox, JTabbedP
 
 #### Descripción de la práctica B:
 
-Desarrollar un Power Point.
+Desarrollar una aplicación similar a un JPaint, es decir, una aplicación que pinte distintos tipos de figuras (al menos deberá pintar una más que la que hemos creado en clase). Deberá poder crear figuras, moverlas y eliminarlas. También permitirá crear grupos y ocultar figuras/grupos. Por último, deberá guardar en disco los dibujos realizados. 
+
+Se puede entender que por la parte de interfaz gráfico se parecerá a un JPaint, pero por la parte de manipulación de objetos a un Power Point (tratamiento vectorial de elementos).
 
 #### Evaluación de la práctica: Todos los alumnos parten de un 9.0. Nota mínima: 0. Nota máxima: 10.5.
 

@@ -19,7 +19,7 @@ Es obligatorio emplear nuevos componentes gráficos (JTable, JComboBox, JTabbedP
 
 #### Descripción de la práctica B:
 
-Desarrollar una aplicación similar a un JPaint, es decir, una aplicación que pinte distintos tipos de figuras (al menos deberá pintar una más que la que hemos creado en clase). Deberá poder crear figuras y eliminarlas. También permitirá crear grupos y ocultar figuras/grupos. Por último, deberá guardar en disco los dibujos realizados. 
+Desarrollar una aplicación similar a un JPaint, es decir, una aplicación que pinte distintos tipos de figuras. Además de las figuras Cuadrado y Círculo, se deberá pintar polígonos o figuras libres, es decir, una sucesión de puntos unidos por líneas. el programa deberá poder crear figuras y eliminarlas. También permitirá crear grupos y ocultar figuras/grupos. Por último, deberá guardar en disco los dibujos realizados. 
 
 Se puede entender que por la parte de interfaz gráfico se parecerá a un JPaint, pero por la parte de manipulación de objetos a un Power Point (tratamiento vectorial de elementos).
 

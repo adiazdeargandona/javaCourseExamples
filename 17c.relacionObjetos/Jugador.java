@@ -31,6 +31,7 @@ public class Jugador
         estadisticas.add(e);
     }
 
+    @Override
     public boolean equals(Object o)
     {
         if(o instanceof Jugador)
@@ -42,14 +43,15 @@ public class Jugador
             return false;
     }
 
+    @Override
     public int hashCode()
     {
         return dorsal%5;
     }
-    
+
+    @Override
     public String toString()
     {
         return "\nNombre: " + nombre + " - Dorsal: " + dorsal + " Estadisticas: " + estadisticas;
     }    
-    
 }

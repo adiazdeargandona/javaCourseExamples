@@ -8,14 +8,14 @@ public class Equipo
 {
     private String nombre;
     private float presupuesto;
-    Collection jugadores;
-    Presidente presidente;
+    private Collection jugadores;
+    private Presidente presidente;
 
     public Equipo(String nombre, float presupuesto)
     {
         this.nombre = nombre;
         this.presupuesto = presupuesto;
-        jugadores = new HashSet();
+        this.jugadores = new HashSet();
     }
 
     public Collection getJugadores()
@@ -43,6 +43,7 @@ public class Equipo
         this.presidente = presidente;
     }
 
+    @Override
     public String toString()
     {
         NumberFormat nf = NumberFormat.getCurrencyInstance();

@@ -12,6 +12,7 @@ public class Presidente
         this.profesion = profesion;
     }
 
+    @Override
     public String toString()
     {
         return "Nombre: " + nombre + " - Profesion: " + profesion;

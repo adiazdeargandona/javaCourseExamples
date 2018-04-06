@@ -18,10 +18,10 @@ public class Circulo extends Figura
 
 	public void setRadio(int radio)
 	{
-		if(x>1 && x<600)
+		if(radio > 10)
 			this.radio = radio;
 		else
-			this.radio = 2;
+			this.radio = 10;
 	}
 
 	public int getRadio()

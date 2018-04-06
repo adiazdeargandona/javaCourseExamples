@@ -8,18 +8,18 @@ public class Cuadrado extends Figura
 		Inicializa todos los atributos del objeto 
 		@param lado Tamaño del cuadrado en pixels
 	*/
-	public Cuadrado(int x, int y, boolean relleno, java.awt.Color color, int lado)
+	public Cuadrado(int x, int y, boolean relleno, java.awt.Color color, int lado) throws FiguraNoValidaException
 	{
 		super(x, y, relleno, color);
 		this.setLado(lado);
 	}
 
-	public void setLado(int lado)
+	public void setLado(int lado) throws FiguraNoValidaException
 	{
-		if(x>1 && x<600)
+		if(lado > 10)
 			this.lado = lado;
 		else
-			this.lado = 2;
+			throw new FiguraNoValidaException(lado, "Lado");
 	}
 
 	public int getLado()

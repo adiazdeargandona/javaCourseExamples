@@ -6,6 +6,7 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.JLabel;
 import javax.swing.BorderFactory;
+import javax.swing.JOptionPane;
 
 
 import java.awt.Color;
@@ -26,6 +27,7 @@ import practica08.dominio.Figura;
 import practica08.dominio.Circulo;
 import practica08.dominio.Cuadrado;
 import practica08.dominio.Dibujo;
+import practica08.dominio.FiguraNoValidaException;
 
 import practica08.util.Util;
 
@@ -68,7 +70,7 @@ public class JVentanaDibujo extends JFrame
 				lienzo.setCursor(new Cursor(Cursor.CROSSHAIR_CURSOR));
 				lienzo.addMouseListener(new MouseAdapter()
 				{
-					public void mouseClicked(MouseEvent me)
+					public void mousePressed(MouseEvent me)
 					{
 						if(xInicial==0 && yInicial ==0)
 						{
@@ -80,6 +82,7 @@ public class JVentanaDibujo extends JFrame
 						{
 							int x = me.getX();
 							int y = me.getY();
+							//System.out.println("x:" + xInicial + "y:" + yInicial + "dif:" + (x - xInicial) );
 							Circulo c = new Circulo(xInicial, yInicial, true, Color.RED, x - xInicial);	
 							JVentanaDibujo.this.pintarFigura(c, this);	
 						}
@@ -96,7 +99,7 @@ public class JVentanaDibujo extends JFrame
 				lienzo.setCursor(new Cursor(Cursor.CROSSHAIR_CURSOR));
 				lienzo.addMouseListener(new MouseAdapter()
 				{
-					public void mouseClicked(MouseEvent me)
+					public void mousePressed(MouseEvent me)
 					{
 						if(xInicial==0 && yInicial ==0)
 						{
@@ -108,8 +111,20 @@ public class JVentanaDibujo extends JFrame
 						{
 							int x = me.getX();
 							int y = me.getY();
-							Cuadrado c = new Cuadrado(xInicial, yInicial, true, Color.RED, x - xInicial);		
-							JVentanaDibujo.this.pintarFigura(c, this);	
+							//System.out.println("x:" + xInicial + "y:" + yInicial + "dif:" + (x - xInicial) );
+							int lado = x - xInicial;
+							try
+							{
+								Cuadrado c = new Cuadrado(xInicial, yInicial, true, Color.RED, lado);	
+								JVentanaDibujo.this.pintarFigura(c, this);		
+							}
+							catch(FiguraNoValidaException e)
+							{
+								JOptionPane.showMessageDialog(JVentanaDibujo.this, e.toString());
+								xInicial = 0;
+								yInicial= 0;
+								lienzo.setCursor(new Cursor(Cursor.CROSSHAIR_CURSOR));
+							}
 						}
 					}
 				});

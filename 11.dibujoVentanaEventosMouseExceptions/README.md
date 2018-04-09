@@ -8,9 +8,11 @@ Tomar como base la práctica 10 de la aplicación de dibujo con eventos de tipo 
 En el caso de introducir un valor no válido para cada color primario (0-255) se lanzará una excepción propia que se creará el alumno, mostrando un mensaje mediante una ventana de diálogo (JOptionPane). Si se introduce un texto que no representa un número, también se deberá comunicar el error al usuario.
 
 Error en el caso de color no numérico:
+
 ![alt text](https://raw.githubusercontent.com/DavidContrerasICAI/javaCourseExamples/master/11.dibujoVentanaEventosMouseExceptions/output.jpg)
 
 Error en el caso de color no válido, fuera de [0-255]:
+
 ![alt text](https://raw.githubusercontent.com/DavidContrerasICAI/javaCourseExamples/master/11.dibujoVentanaEventosMouseExceptions/output2.jpg)
 
 #### Diseño 

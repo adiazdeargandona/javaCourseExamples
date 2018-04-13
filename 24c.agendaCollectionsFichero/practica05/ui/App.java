@@ -6,13 +6,28 @@ import practica05.dominio.Persona;
 import practica05.util.Leer;
 import practica05.io.FicheroPersonas;
 
+import java.util.Collection;
+import java.util.ArrayList;
+
 public class App
 {
-    private static Agenda agenda = new Agenda("Amigos");
+    private static Agenda agenda;
 
     public static void main(String[] args)
     {
         int opcion=0;
+
+        /*
+        agenda = FicheroPersonas.leer();
+        if(agenda==null)
+            agenda = new Agenda();
+        */
+
+        agenda = new Agenda();
+        ArrayList personas = FicheroPersonas.leerPersonas();
+        if(personas == null)
+            personas = new ArrayList();
+        agenda.setPersonas(personas);
 
         do
         {
@@ -113,7 +128,7 @@ public class App
         	    break;
         	case 9:
                 java.util.Collection personas = agenda.getPersonas();
-                FicheroPersonas.guardarPersonas(personas);
+                FicheroPersonas.guardar(personas);
         	    break;
         	default:
         }

@@ -5,7 +5,7 @@ import practica05.dominio.Persona;
 import java.util.ArrayList;
 import java.util.Collection;
 
-public class Agenda
+public class Agenda implements java.io.Serializable
 {
     private ArrayList personas;
     private String nombre;
@@ -14,6 +14,11 @@ public class Agenda
     {
     	this.nombre = nombre;
     	personas = new ArrayList();
+    }
+
+    public Agenda()
+    {
+        this("sin nombre");
     }
 
     public String getNombre()
@@ -71,6 +76,11 @@ public class Agenda
     {
         return personas;
     }
+
+    public void setPersonas(ArrayList personas)
+    {
+        this.personas = personas;
+    }    
 
 	public String toString()
     {

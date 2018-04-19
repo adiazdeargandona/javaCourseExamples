@@ -4,7 +4,7 @@ El alumno podrá elegir entre desarrollar una aplicación Swing que gestione un 
 
 #### Fecha de entrega:
 
-Presentación final: 24 de mayo
+<strong>Presentación final: 21 de mayo - CONFIRMADA</strong>
 
 #### Descripción de la práctica A:
 

@@ -173,6 +173,16 @@ public class VentanaAlumnoEventosAnonima extends JFrame
 				}	
 
 			});
+
+		try
+		{
+			url = this.getClass().getResource("/images/icono.png");
+			this.setIconImage(javax.imageio.ImageIO.read(url));
+		}
+		catch(java.io.IOException e)
+		{
+			System.out.println("No se encontró el icono");
+		}
 		
 		this.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
 		this.setTitle("Practica Java");

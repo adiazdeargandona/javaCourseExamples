@@ -1,0 +1,2 @@
+Main-class: practicasJava.practicaJAR.ui.VentanaAlumnoEventosAnonima
+
